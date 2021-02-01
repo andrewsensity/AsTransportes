@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "978805729679",
+    "project_id": "astransportes-78ddd",
+    "storage_bucket": "astransportes-78ddd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978805729679:android:595ee46ce037df701203fa",
+        "android_client_info": {
+          "package_name": "co.com.astransportes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978805729679-6cn4gmudh3r8f94ts3l2sjfgg66sncpq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.com.astransportes",
+            "certificate_hash": "2b7df99115ef106f2034351136227565acc05bea"
+          }
+        },
+        {
+          "client_id": "978805729679-dlje5tg5su81oc8dchik0r9apih5jsei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl8yduC7R2x1vTNgGX70oAy532MzU579c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978805729679-dlje5tg5su81oc8dchik0r9apih5jsei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

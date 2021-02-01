@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SelectOptionAuthActivity">
+
+    <include layout="@layout/action_bar_toolbar"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/intro_astransporte"
+            android:layout_gravity="center"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slogan"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/blue"
+            android:layout_marginTop="-120dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnGoToLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ya_tengo_cuenta"
+            android:backgroundTint="@color/blue"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnGoToRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registrarme_ahora"
+            android:backgroundTint="@color/orange"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

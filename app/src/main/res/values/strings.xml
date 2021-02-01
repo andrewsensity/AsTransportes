@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AsTransportes</string>
+    <string name="slogan">Soluciones en movimiento</string>
+    <string name="soy_conductor">soy conductor</string>
+    <string name="soy_cliente">soy cliente</string>
+    <string name="registrarme_ahora">registrarme ahora</string>
+    <string name="ya_tengo_cuenta">ya tengo cuenta</string>
+    <string name="name">Nombre Completo</string>
+    <string name="email">Correo Electronico</string>
+    <string name="password">Contraseña</string>
+    <string name="ingresar">ingesar</string>
+    <string name="registrar">registrar</string>
+    <string name="tipo_de_vehiculo">Tipo de Vehiculo</string>
+    <string name="placa">Placa del Vehiculo</string>
+    <string name="message_dialog">Espere un momento</string>
+    <string name="registrate">Registrate</string>
+    <string name="ingresa_datos">Ingresa los datos</string>
+</resources>
